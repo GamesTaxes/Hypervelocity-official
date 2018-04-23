@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 155122cf685fb2e4e89c5719b1480141
+timeCreated: 1523528032
+licenseType: Free
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - titleScreen: {fileID: 1370797630402232, guid: d8db0b2f9318b804d8603542917521cb,
+      type: 2}
+  - health33Prefab: {fileID: 1242233746180034, guid: 7e7f56dd9129d2741930f6bd9e074283,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: 99c536adba07adb4abbddb7dfd53543e
+timeCreated: 1522419389
+licenseType: Free
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - laserPrefab: {fileID: 1494020277898362, guid: e623d3eed916cca449246934fbc263a9,
+      type: 2}
+  - tripleShotPrefab: {fileID: 1550569828286236, guid: e3f1449d803980c4d9857b5f591e5b90,
+      type: 2}
+  - doubleShotPrefab: {instanceID: 0}
+  - explosionPrefab: {instanceID: 0}
+  - shieldPrefab: {instanceID: 0}
+  - health2Prefab: {instanceID: 0}
+  - health1Prefab: {instanceID: 0}
+  - health0Prefab: {instanceID: 0}
+  - defenderBotPrefab: {fileID: 1883199484913806, guid: 486e42446684bff4ca9c0ade6f471698,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

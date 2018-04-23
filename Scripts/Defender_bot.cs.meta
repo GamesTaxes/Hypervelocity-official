@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 69ee891f2887b234b9780ea302099a26
+timeCreated: 1523207380
+licenseType: Free
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - laserPrefab: {instanceID: 0}
+  - defenderBotPrefab: {fileID: 1883199484913806, guid: 486e42446684bff4ca9c0ade6f471698,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
