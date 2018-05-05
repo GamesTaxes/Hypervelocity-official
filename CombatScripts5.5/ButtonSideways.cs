@@ -7,7 +7,7 @@ using UnityEngine.EventSystems;
 /// Courtesy of Akseli
 public class ButtonSideways : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 {
-    bool pressed;
+    private bool pressed;
 
     public void OnPointerDown(PointerEventData eventData)
     {

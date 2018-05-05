@@ -62,7 +62,7 @@ public class Player : MonoBehaviour
     }
 
     /// Movement() method controls the movement of the player and sets the boundaries for the player.
-    private void Movement()
+    public void Movement()
     {
         
         float horizontalInput = Input.GetAxis("Horizontal");
