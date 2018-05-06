@@ -2,41 +2,38 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Defender_bot : MonoBehaviour
+namespace Combat
 {
-    private float fireRate = 3.0f;
-    private float canFire = 0.0f;
-
-    public GameObject laserPrefab;
-
-    /**
-    * Update() method is called 60 times per second.
-    */
-    void Update()
+    public class Defender_bot : MonoBehaviour
     {
-        if (Time.time > canFire)
+        private float fireRate = 3.0f;
+        private float canFire = 0.0f;
+
+        public GameObject laserPrefab;
+
+        /// Update() method is called 60 times per second.
+        void Update()
         {
-            Fire();
+            if (Time.time > canFire)
+            {
+                Fire();
+            }
         }
-    }
 
-    /**
-     * Fire() controls the firing of the defender.
-     */
-    private void Fire()
-    {
-        Instantiate(laserPrefab, transform.position + new Vector3(0, 0.5f, 0), Quaternion.identity);
-        canFire = Time.time + fireRate;
-    }
+        /// Fire() controls the firing of the defender.
+        private void Fire()
+        {
+            Instantiate(laserPrefab, transform.position + new Vector3(0, 0.5f, 0), Quaternion.identity);
+            canFire = Time.time + fireRate;
+        }
 
-    /**
-     * DefenderActive() uses DefenderOn() method from Player class. Its main function is to activate the defender bot.
-     */
-    public void DefenderActive()
-    {
+        /// DefenderActive() uses DefenderOn() method from Player class. Its main function is to activate the defender bot.
+        public void DefenderActive()
+        {
 
-        Player player1 = GetComponent<Player>();
+            Player player1 = GetComponent<Player>();
 
-        player1.DefenderOn();
+            player1.DefenderOn();
+        }
     }
 }

@@ -3,87 +3,99 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
 
-public class GameManager : MonoBehaviour
+namespace Combat
 {
-    public bool gameOver = false;
-    public bool pause = false;
-    public int start = 0;
-
-    public GameObject playerPrefab;
-    public GameObject pauseMenuPrefab;
-    public GameObject endExplosionPrefab;
-    private UiManager uimanager;
-
-    /**
-    * Start() method is called at the beginning of the scene.
-    */
-    private void Start()
+    public class GameManager : MonoBehaviour
     {
-        uimanager = GameObject.Find("Canvas").GetComponent<UiManager>();
-    }
+        public bool gameOver = false;
+        public bool pause = false;
+        public bool start = true;
 
-    /**
-    * Update() method is called 60 times per second.
-    * In GameManager class, it checks for game over and destroys ALL clones if true.
-    * Then it waits for space key to continue.
-    */
-    void Update()
-    {
+        public GameObject playerPrefab;
+        public GameObject pauseMenuPrefab;
+        public GameObject endExplosionPrefab;
+        public GameObject planetPrefab;
+        private UiManager uimanager;
 
-        var clones = GameObject.FindObjectsOfType<GameObject>().Where<GameObject>(list => list.name.Contains("(Clone)")).ToArray();
+        Player player;
+        Buttons buttons;
 
-        if (gameOver == true)
+        ///Start() method is called when the class is first called.
+        private void Start()
         {
-            Time.timeScale = 0f;
+            uimanager = GameObject.Find("Canvas").GetComponent<UiManager>();
+            buttons = FindObjectOfType<Buttons>();
+        }
 
-            if (start > 0)
+
+        /// Update() method is called 60 times per second.
+        /// In GameManager class, it checks for game over and destroys ALL clones if true.
+        /// Then it waits for space key to continue.
+        void Update()
+        {
+            var clones = GameObject.FindObjectsOfType<GameObject>().Where<GameObject>(list => list.name.Contains("(Clone)")).ToArray();
+
+            if (gameOver == true)
             {
-                foreach (var clone in clones)
+
+                Time.timeScale = 0f;
+
+                if (start == true)
                 {
-                    Destroy(clone);
-                    start--;
+                    foreach (var clone in clones)
+                    {
+                        Destroy(clone);
+                        start = false;
+                    }
                 }
+
+                if (Input.GetKeyDown(KeyCode.Return))
+                {
+                    startGame();
+                }
+
+                start = true;
             }
 
-            start++;
-
-            if (Input.GetKeyDown(KeyCode.Space))
+            if (Input.GetKeyDown(KeyCode.P))
             {
-                Instantiate(playerPrefab, new Vector3(0, -2, 0), Quaternion.identity);
-
-                gameOver = false;
-                Time.timeScale = 1f;
-                uimanager.HideTitle();
-
-                Destroy(GameObject.Find("explosion"));
-                Destroy(GameObject.Find("health0(Clone)"));
+                Pause();
             }
         }
 
-        if (Input.GetKeyDown(KeyCode.P))
-        {
-            Pause();
-        }
-    }
 
-    /**
-     * MEthod for pausing the game.
-     */
-    private void Pause()
-    {
-
-        if (pause == true)
+        /// Starts the game, creates the player and resets UI elements to default.
+        public void startGame()
         {
-            Destroy(GameObject.Find("paused(Clone)"));
-            pause = false;
+            player = Instantiate(playerPrefab, new Vector3(0, -2, 0), Quaternion.identity).GetComponent<Player>();
+
+            Destroy(GameObject.Find("planet"));
+            Instantiate(planetPrefab, new Vector3(0, 10, 0), Quaternion.identity);
+
+            gameOver = false;
             Time.timeScale = 1f;
+            uimanager.HideTitle();
+
+            Destroy(GameObject.Find("explosion"));
+            Destroy(GameObject.Find("health0(Clone)"));
         }
 
-        else
+        ///Method for pausing the game.
+        private void Pause()
         {
-            Instantiate(pauseMenuPrefab, new Vector3(0, 0, 0), Quaternion.identity);
-            pause = true;
-            Time.timeScale = 0f;
+            if (pause == true)
+            {
+                Destroy(GameObject.Find("paused(Clone)"));
+                pause = false;
+                Time.timeScale = 1f;
+            }
+
+            else
+            {
+                Instantiate(pauseMenuPrefab, new Vector3(0, 0, 0), Quaternion.identity);
+                pause = true;
+                Time.timeScale = 0f;
+            }
         }
     }
 }
