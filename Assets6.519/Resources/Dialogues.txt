@@ -1,0 +1,409 @@
+---Prologue---
+Your ship arrives at the Regis system in far reaches of the Earth Directorate. A fleet wide alert of an imminent invasion of the system was given only hours ago, but already, you the see hundreds of ships rallying here. It is likely that the moon, Anu is the target, because it is one of the few places in know space where Aagshior-plants, vital to treading mental illnesses resulting from excessive time in space, can be farmed. Thus the plant is priceless to any spacefaring species.
+Continue
+
+
+
+-----
+It has been days now, and nothing worth mentioning has happened, except that Quincy, your XO, managed to cause a minor explosion in the cargo bay. A firm reminder that as long as you have friends or family in high places, the level of your skills doesn't matter much. Suddenly the ships combat alert triggers, it seems that the Flagship has picked up multiple inbound contacts. The ships, that can now be counted in thousands, move to a battle formation.  
+I fckn hate Quincy...
+
+
+
+-----
+You've been placed in the Gamma squadron and your task is to strike the enemy's rear while the main fleet engages the enemy in battle. You and your squadron are positioned in an asteroid field as to avoid detection. As you pick visual on the enemy fleet your jaw drops - you've never seen a fleet of that size in your 10 years of service. "This'll be a slaughter" you think to yourself, as you observe the clearly frightened faces of your crew. "Ready at my command", you steel yourself. 
+Continue
+
+
+
+-----
+The battle rages on as you wait for the signal to attack. You order a systems check while waiting to keep your crew occupied, and away from your XO, Quincy, who is visibly trembling and in near panic. The situation looks dire, and you know that any possibility of victory lies entirely on Gamma squadron's success. Finally the orders are given and your squadron accelerates to engage, but there is a sudden flash and a sound that tears through your brain. You fall to the floor unconcious.
+Continue 
+
+
+
+-----
+You wake up disoriented, grab a railing in the CIC, and with some difficulty pull yourself up. Holding on to the railing as if your life depended on it, you look around. The entire CIC is a ruin, everywhere you see broken monitors and crew members, some dead, some injured but awake, and ofcourse Quincy. Of all the people onboard ofcourse he had to be among the survivors.
+Why won't he just DIE?!?!?
+
+
+
+-----
+You make your way to the bridge, not knowing what to expect, you open the blast shields covering the windows. The sight takes your breath away. The number of torn-open hulls and corpses floating among the debris is staggering. You hear a voice behind you. It is Carver your Communications officer, "We're recieving an incoming transmission, sir" 
+Your journey begins...
+
+
+
+---Dialogue1---Slide0---
+This is General Nebulus Magnificus of the 7th Aurostean fleet of the glorious Evil Empire! You are hereby commanded to surrender your crew and assets to the fair service of our beloved Empire!
+Perhaps we should first try to figure out what just happened?
+We're not surrendering anything to you. Care to explain what just happened?
+Look, pal, you're not going to get anywhere with that attitude. Show some humility, we just wiped out your entire fleet.
+What the hell did you maniacs do this time?!
+-----Slide1-----
+You make claims of innocence but I see through your charade! I will seize control of your ship and scavenge the debris here to discover what kind of weapon technology you have. I will be a celebrated Hero of the Free People. 
+Err, you're not going to listen to reason, are you?
+*Order your crew to power up your weapon systems* Like I said before, you're getting the short end of the stick here. (Pray that your weapons are still functional).
+Our readings of your ship indicate that your hull is barely holding together as it is. After what just happened, do you really think it is worth the risk?
+I guess I'm not going to get anything out of you. Fire at will!
+-----Slide2-----
+Your actions speak louder than your words! Though I must admit, I didn't think you, maggots, would have it in you to sacrifice an entire fleet just to defeat us in one battle. I commend you for that, regardless, you will now either surrender or be destroyed.
+It seems like we're in the same boat here. What happened wasn't our doing. I thought it was you.
+It wasn't our doing, but we're more then ready to fight you if necessary.
+We just wiped out your entire armada, and you're asking us to surrender?
+Enough words. time to die!
+-----Slide3-----
+*A sound of a gunshot carries through the com-system* Hello, this is commanding officer Gustavian, the general is having some unexpected health issues. It seems that he took a lot harder blow to the back of his head than it first seemed. We are willing to help you figure this out. We shouldn't be shooting at each other with so few alive. 
+*That was easier than I thought!* Good, first of all we need to find out if there is anyone else who survived intact.
+*God bless you're not the only one with a shitty XO* Alright, we need to strip your ship to repair our navigation system, and then we can start figuring out what is going on.
+*Holy hells! No way I'm taking a homicidal maniac on board my ship!* Ok, we're going to need to strip your ship, but we'll take any survivors into our cargo bay *and then space them!*  
+
+-----Slide4-----
+We? WE?! I will tolerate your insolace no more! Surrender now or die!
+Wait! Can we talk about this?
+To WARRRRRR! CHAARGEE!!
+
+
+---Ending Dialogue1---Slide5---
+*It seems that the enemy was just playing time! It dawns to you that staying still during your exchange was a bad idea because it makes you an easy target for even a damaged weapon. This, ofcourse, is no use now as the enemy's heavy combat laser is already half way through your ship's hull. As you float out to the vast emptiness of space your final thoughts give you no peace, "Damn, that could have gone better."
+Back to main menu.
+
+
+
+---Ending Dialogue1---Slide6---
+A general of the Empire will never kneel before weaklings like you, no matter how powerful weapons you wield. My devotion to the Emperor will see me through these trials! *They attack!*
+Aww crap! Well, it was worth a shot.
+
+
+
+---Ending Dialogue1---Slide7---
+*Your scavenger teams salvage all functional components, including parts to repair your broken navigational systems, from the other ship. It turns out the search for survivors has paid out as well and your ship is now fully staffed, almost too well as the cargo bay is cramped now.   After some makeshift repairs to the hull of your ship you are quite confident that the ship can hold together at least a few warp jumps, and if lucky, even the cargo bay, and the people there might survive.
+Now, all we need is a heading. I doubt jumping blind is going to do any good...
+
+
+
+--Ending Dialogue1---Slide8---
+I agree that would be a good place to start. We can also strip this sorry excuse for a ship for spare parts, and get your ship into a running fit again. There is no way we can save our ship anyway.
+That would be great! After some work on the hull, we'll be able to take in other survivors.
+Good. After the necessary repairs to my ship we can house your crew, and some survivors as well. Prepare to take in the scavenger team.
+
+
+---Beginning Dialogue2---
+Hello, weaklings!
+Hi.
+What?
+Die!
+
+-----
+Since you acknowledge our superiority you may ask us a question.
+Can you give us directions?
+We need some help!
+
+
+-----
+Your manners are as crude as your face!
+Tough guy, huh?
+Press 'R' for Rocket launcher.
+
+
+-----
+We give nothing for free!
+Listen! If you refuse to help us, we will be forced to use our BFRL on your ship!
+Well, uh... we just recieved a fresh batch of slaves we could trade you...
+
+
+-----
+We are not a charity find your own way around the galaxy
+Listen! If you refuse to help us, we will be forced to use our BFRL on your ship!
+Well, uh... we just recieved a fresh batch of slaves we could trade you...
+We will get those coordinates even if it means blow your ship up and venting you into space!
+
+-----
+Lets try this again, what do you want?
+We need cooordinates to a nearby inhabited world or space station.
+We need some coordinates for our nav-system, and we might as well take them off your bloody carcasses!
+
+
+-----
+Blaaaaaaargh... (the space bugs' ship blows into millions of little pieces, leaving you stranded in space forever. R.I.P. in peace.
+Continue
+
+
+
+-----
+Hrmph! What a brute! You are lucky we have valuable cargo otherwise we'd have murdered you to death! here are the coordinates
+Continue
+
+
+
+-----
+Thank you for these fine specimen, we look forward to learning new things about your physiology!
+Continue
+
+
+
+-----
+If blood is what you desire blood is what you shall get.
+Continue
+
+
+
+---PlanetDialogue---
+Finally you arrive at Planet Unopia, a pirate world out of the Empire's and Directorate's reach. Your ship is in desperate need of repairs, and thus it would seem logical to first seek help in the Dock Administrator's office. Then again, your ship isn't going anywhere soon, so the Groovy's Space Bar seems like a good alternative as well. "I'm going to take care of business at the docks, look after the ship in my absence", you nod off to your new XO Kraut.  
+The Dock Administrator's office
+Ilar's Junkyard
+Groovy's Space Bar
+A Dark Alley
+-----
+"Well, well, well look what the cat dragged in", the Administratoor continues, "We don't take kindly to people who don't take kindly to others around here, and that means you authoritarians". The Administrator looks at you head to toe, "you can dock here, but keep your wits about Directorate Pawn"  
+"Uh, thanks? By the way my ship has seen some better days, and I was wondering if there are any repair crews around the docks."
+"So is there a place to party in this cheap excuse of a dockyard?"
+Return to the Docks.
+"The problem at the bar has been dealt with, and I got the parts needed to fix my ride." 
+-----
+"Good day to you military man! Welcome to my fabulous shop! I got everything a man can ask for from ship parts to Gondola steaks.", he grins, "There are countless of those little buggers all around, and I don't know where they keep coming from, but I sure know what to do with them, harharhar."
+"Hey there! My ship is totally busted, got some spare parts for a war veteran?"
+Return to the Docks.
+"Ok, look, I dealt with the thugs, but I can't just give Quincy to you so you can turn him, and his friends, into juicy steaks. "
+
+-----
+The first thing you notice when you enter is that walls are decorated with stuffed aliens, some you recognize others you don't, oddly enough one such pedestal stands empty. The bar itself is full of people if someone was to start a shoot out here it would be a slaughter.
+This looks like a good place to get really drunk. "Bartender pass me a Gorkazorg!"
+Return to the Docks.
+"Everyone stay calm this is a peacekeeping procedure!"
+
+-----
+The Alley is eerily quiet, and gives you the creeps.
+Return to the Docks.
+You notice a small latch in one of the darker corners of the alley. "Lets do this by the book. Gun - check, gum -cherry, Sunglasses -in place. Lets do this."
+
+
+-----
+"Heh, I think there's always something we can work out", he continues with a smirk on his face, "I can't help you with parts, but no one is working on my dock without my say so, and I don't like the docks getting too crowded". "There is, however, a group of low-lives trying to take over my position as the Administrator that I need someone to deal with".
+"Alright," you grunt, "just don't make this a habit."
+"You think I have time for your petty errands, punk?" Pull out your gun.
+"Get someone else to do your dirty work." Turn to walk away.
+
+-----
+"Does this look like a goddamn information post, get thee hells out of here", the administrator shouts at you.
+"You think I have time for your shit?", insulted, you continue, "draw laser, punk!"
+"You got lucky that I'm in a good mood today." Return to Port
+
+
+-----
+"Great! I'm glad to have done business with you", he says with grin on his face, "I'll sent the repair crews to your ship. They'll pick up the necessary parts from Ilar's on their way."
+"At least you're man enough to hold your end of the bargin." Return to the Docks.
+
+
+
+-----
+"Hmm, I got the parts alright", he looks at you thinking, "You don't seem like someone who could afford my high quality wares, though". "I'll cut you a deal, though. There is a new friend of mine, Quincy, is his name, and I'd like you to help me find him. A couple of Thughs stole him from me not long ago. Oh, and do make an example of those thugs for me, will you?"
+"Uhm, 'stole' your friend? I used to know someone named Quincy too, what a coincidence! Fine, I'll deal with the low-lives." 
+"How about this, you give me the parts I need, and I won't blast your head off."
+"Forget this." Return to the Docks
+
+-----
+"Fine, fine, the gondola steaks weren't selling that well anyways. I hear rumors about how you handled the thugs, you made a good show of them, and that earns you the parts you need."
+"I'll send my crew for the parts soon enough. Come on Quincy get your friends, and lets get back to my ship." Return to the Port
+
+
+
+-----
+slide10
+slide 
+slide
+slide
+slide
+-----
+You look closely at the stuffed figures stading on pedestals, they look so detailed that one might even mistake them for the real deal. Or then it is just the Gorkazorg starting to get up to your head. 
+"That is only enough to get you pissed off", keep drinking 'til you drop.
+"That rocked the spot!", you have some matters to tend to. Return to the Port.
+
+
+-----
+A group of low ranking officers raises up, and walks up to you. They look like the people the Administrator was talking about. "You're not a peace keeper here, we are", one of the officers says with a firm tone, "Boy, is it going to cost you to get out of this one." 
+"Ok, guys, you called my bluff. I just want us all to get along." you start with a gentler tone, "the administrator still wants to have his way, so could you please help me?"
+"Shut it or this bar turns into a blood bath before you can say 'Akenasöknadgw'", you say with a firm tone, "You should have thought about the consequences, before you started conspiring against the Administrator!"
+"Stop, or I'll shoot!" Well, to be honest, you actually started shooting way before saying that.
+
+-----
+You bust in to the scene, and find the crooks Ilar was talking about sitting around a table, and playing cards. They jump up and start moving towards you aggressively. Caged in a corner you get a glimpse of a caged gondola. Meeting your eyes he shouts, "Goddamn it Gary you set me up with those chickens! Look at what they've done to me!"
+"Eat laser, punks!", Time to spray and pray.
+"Ok, guys, you called my bluff. I'd really like to help my friend Quincy out of this trouble. I am, after all, partly to blame for his condition."
+
+
+-----
+"Good, good, that's the spirit", the Administrator laughs out, "They tend to spend time in the bar, you can just act as if you're a peacekeeper or something, it, really, doesn't matter here if you kill someone, but as an Administrator I can't be get caught doing it myself". "Get back here when you've done the 'deed', and obtained the parts, and I'll see your ship fixed".
+Return to the Docks.
+
+
+
+-----
+You reach for your gun, but oddly enough the Administrator seems completely calm all of a sudden. So calm that he is, actually, smiling at you!
+Continue...
+
+
+
+-----
+"By the way your ship is grounded until further notice, have a nice day", the Administrator says laughing.
+You're angry but sometimes there is nothing else to do but to swallow it, "Fine, I'll do it."
+"You think I have time for your shit?", insulted, you continue, "draw laser, punk!"
+
+
+-----
+"Hey, thanks! I'll give you premium if you pull this off!", he smiles, "They headed to the Dark Alley there is a trapdoor there that leads to their hideout. Becareful though that alley has earned its name."
+"I'll get back to you when I find something", return to Docks.
+
+
+
+-----
+"Hahahah", Ilar bursts to laughter, "Where will you get your parts if I'm dead then? I got a good thing going with the Administrator, it wouldn't be long 'til his boys would get you." 
+"Fine, I'll do it."
+
+
+
+-----
+There's blood, and corpses everywhere, and the walls are decorated with splattered brainmatter. You really need to learn some restraint, just think of all the innocent patrons you killed to day.
+"That should do it, I think the administrator will be pleased!"
+
+
+
+-----
+"Damn it. Look, we'll get off the planet right away, if you let us live. Then you can tell the administrator that we're dead. No one has to die, right?"
+"Cowards," you think to yourself your trigger finger itching, "well, maybe it is better this way".
+
+
+
+-----
+You make short work of the thugs with your lasergun. Sitting in a sea of blood, and leaning to the table leg, one of the thugs utters his last words, "such wepons, very trained, much elite", you barely make out the end of the sentence. You let Quincy out of the miniature cage he is sitting in, "The chickes are turning people they find into gondolas, and sending us here! I think they're up to no good!", Quincy says. "I'm not really that mad. Being a gondola isn't that bad and these guys are just super! We're going to establish a new race, but first we'll help you out! Are you ready to get your XO back?"
+"'Establish' a race? You back? Lets just get you back to Ilar for starters." 
+
+
+
+-----
+It has been days and your crew is getting worried about your were abouts. You chief engineer has been looking for you in the docks, and finally found out that you've been last seen drinking in the bar. He visits the bar, but doesn't find you, and nobody seems to recall speaking to you. As he leaves he pays attention to the stuffed figurines lining the walls, on each pedestal they have a figure of different species even a human with a helmet on.
+Back to Main Menu
+
+
+
+-----
+They ignore your plea, "time to die soldier boy". The last thing you sense is the foul breath of a large, and rowdy figure leaning over you as you're lying on the floor in a pool of your own blood, "Time to get dirty".
+Back to Main Menu
+
+
+
+-----
+Suddenly you notice two hatches opening in the ceiling, and a pair of Vulcan Chainguns drop down. The chainguns effectively grind you into mince. I guess this just wasn't your day.
+Back to Main Menu
+
+
+
+-----
+To your surprise, the administrators repair crew did spectacular job repairing your ship it is almost as good as the day it rolled out of the drydock for the first time. 
+Tell your navigator to set course towards Regis system.
+
+
+
+MoonDialogue
+You have arrived at what once was the beautiful moon of Anu. It seems that there is little but ruins and scorched ground left of it now. Not far from your ships location is what remais of the military headquarters of Anu.
+Go to the Ruined Base
+Go to the Ruined Research Lab
+Leave the Planet(No Droneship for Quincy)
+Leave the Planet
+-----
+"Holy explosion! Gary One ze Nobi is that you? How on earth did you survive the rift?!", the commander pauses, "Never mind, that. You need to get to Sol system and fast, because what ever creeped out of that rift was heading there! The fighting in Sol will be tough so there is something I could help you with."
+"Tell me more! I'll need all the help I can get."
+"Time is wasting! Uranus is about to be invaded!", you return to your ship.
+"The monster is still alive, but I managed to get the parts."
+
+-----
+The outskirts of the Research Base is filled with coprses. Decapitated bodies, severed limbs, guts, and somethings too horrible to mention litter the ground as far as the eye can see.
+"The brave will eat the pea soup!", go inside.
+"Helloooo!!! Is anyone hoooome?!?!", you shout of the top of your lungs.
+
+
+-----
+"I have this small armed drone. Its AI is not ready but your small friend could fit in if I modified it a little", he glares at Quincy, "The problem is, however, that as what-ever-the-hell-it-was passed through the system, It left some strange creatures behind, and one such creature made its lair in the ruined Research Base nearby, and in that base is the MacGuffin device that I need to make the changes." 
+"Sounds dangerous, but I'll do it for Quincy. I owe him that much."
+"If I'm the only one left with a functional frigate, I can't risk it. Sorry, Quincy"
+
+
+-----
+"How did you... it doesn't matter. There is no time for questions. I'll get this droneship working and hand it over to your little buddies here.", meanwhile, Quincy can't keep himself from bouncing off the walls. "Get to your ship fast I hear they are about to invade Uranus!", the Commander shouts after you.
+"Great! Lets get kick this alien monster out of Uranus!", return to your ship.
+
+
+
+-----
+You come face to face with the horrifying beast... It whimper menacingly! You have never borne witness to such horrifying whimpering before, it assails you senses, and sheer terror takes grasp of your being!
+Throw away your gun, then your shirt, and prepare to fight like a man!
+Pull out your gun, and start shooting!
+"Hmm, this creature seems very angry. A different approach could work here.", you offer some space berries to the creature.
+
+-----
+Loud purring sound echoes from the depths of the Research facility, making your skin crawl. To make things worse it seems to be getting closer.
+"Can we fix it? -Yes we can!", march into the Laboratory head high.
+"Eeeeh, on a second thought, this seems like a really bad idea", return to your ship.
+
+
+-----
+Quincy's eyes light up, "I'm getting my own ship for us Gondolas?!". "Becareful though that beast is what destroyed this moon. It looked like it was half a man, half a bear, and half pigzoid, and bloody hells was it piiiiissed off. It killed the entire garrison here.", the Commander warns you.
+"Thanks for the heads up, we'll find that MacGuffin device.", return to your ship.
+
+
+
+-----
+Quincy looks utterly disappointed and depressed. "Your friend doesn't look too happy about it, but it might be for the best to just get to Sol ASAP", the Commander nods.
+"I'm not so sure about this anymore.", return to your ship.
+
+
+
+-----
+The creature comes closer, and for a moment you're sure you're, in the least, going to lose the hand holding to berries, this was propably a horrible idea. To your surprise the beast eats the space berries, and begins roaring and growling gently, clearing the path to the MacGuffin device. 
+"That's a good ManBearAlien. I'll just pick this up and leave...", return to your ship.
+
+
+
+-----
+You start blasting lazors at the creature, but it is a lot tougher than you anticipated! Perhaps you should have payed more attention to all the dear marines outside. The fight takes ages as you nimbly manage o avoid the creatures strong arm. Eventually you run out of steam though and the creature manages to grab you as you fumble. The beast is very angry after all this time, and it presumes to tear you slowly apart limb by limb. You terrifying screaming can be heard by your crew waiting in your ship. Well, now it is their ship as they take off in fear.  
+Return to Main Menu
+
+
+
+-----
+You ignore your fear, and your legs telling you to turn, and charge at the creature. The beast grabs you with its strong arm, not the normal one, lifts you up, and eats your head. Quite an embarrasing end to your tale, isn't it?!
+Return to Main Menu
+
+
+
+-----
+You rush back to your ship, and shout your crew orders to initiate take off procedures. The time has come to end this once and for all! Your ship rises off the ground and heads into the endless space. 
+"Set course to Uranus!"
+
+
+
+-----
+You rush back to your ship, and shout your crew orders to initiate take off procedures. To your amazement Quincy the Gondolan Explorer, as he now refers to himself, already beat you yo it. His drone ship is already hover, ready to take off. The time has come to end this once and for all! Your ship rises off the ground and heads into the endless space.
+"Set course to Uranus!"
+
+
+
+---Outro---
+slide0
+Continue.
+
+
+
+-----
+slide1
+Continue.
+
+
+
+-----
+slide2
+Continue.
+
+
+
+-----
