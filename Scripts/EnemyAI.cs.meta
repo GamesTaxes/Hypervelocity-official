@@ -5,7 +5,12 @@ licenseType: Free
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - enemyExplosionPrefab: {instanceID: 0}
+  - enemyLaserPrefab: {instanceID: 0}
+  - bossPrefab: {fileID: 1816557800830746, guid: 3d4e843c461666940b7990675f731401,
+      type: 2}
+  - teleportPrefab: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
