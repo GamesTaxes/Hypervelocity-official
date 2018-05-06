@@ -6,18 +6,14 @@ public class Star
     private Star nextRoomLeft;
     private Star nextRoomRight;
 
-    /**
-    When a new star is made, it gets its name here.
-    **/
+    ///When a new star is made, it gets its name here.
 
     public Star(string name)
     {
         this.roomName = name;
     }
 
-    /**
-    Different rooms created in GameController use this. First variable shows direction to its left and second to its right.
-    **/
+    ///Different rooms created in GameController use this. First variable shows direction to its left and second to its right.
 
     public void SetNextRooms(Star left, Star right)
     {
@@ -29,10 +25,10 @@ public class Star
 
     public Star GetNext(string direction)
     {
-        /**if (direction == "left")
-        {
-            return nextRoomLeft;
-        }**/
+        ///if (direction == "left")
+        ///{
+        ///    return nextRoomLeft;
+        ///}
         if (direction == "right")
         {
             return nextRoomRight;
@@ -40,9 +36,7 @@ public class Star
         return null;
     }
 
-    /**
-    GetName fetches the name of the Star you are currently at.
-    **/
+    ///GetName fetches the name of the Star you are currently at.
 
     public string GetName()
     {
