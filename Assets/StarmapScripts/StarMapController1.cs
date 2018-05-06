@@ -6,6 +6,8 @@ using System.IO;
 using System;
 using UnityEngine.SceneManagement;
 
+///Starmap is based on the room code made during the programming classes. Simo Ojala and Akseli Peltola helped with the code a couple of times.
+
 public class StarMapController1 : MonoBehaviour {
 
     private bool move = false;
@@ -30,7 +32,7 @@ public class StarMapController1 : MonoBehaviour {
     private int savedProgressGameInt;
     Orbit orbit1;
 
-    /// Start() is called at the beginning of the code (Simo autto)
+    /// Start() is called at the beginning of the code
 
     void Start() {
 
@@ -51,7 +53,7 @@ public class StarMapController1 : MonoBehaviour {
         star2 = GameObject.Find("Star2").GetComponent<Button>();
         star3 = GameObject.Find("Star3").GetComponent<Button>();
         star4 = GameObject.Find("Star4").GetComponent<Button>();
-        //orbit1 = new Orbit(star1);
+        ///orbit1 = new Orbit(star1);
         star1.onClick.AddListener(() => buttonPressed(star1));
         star2.onClick.AddListener(() => buttonPressed(star2));
         star3.onClick.AddListener(() => buttonPressed(star3));
@@ -69,9 +71,8 @@ public class StarMapController1 : MonoBehaviour {
         updateStarLocation(savedProgressGameInt);
     }
 
-    /**buttonPressed is called when a button is pressed, with b becoming the button that was pressed.
-       Next there are a bunch of if else sentences for different buttons.
-    **/
+    ///buttonPressed is called when a button is pressed, with b becoming the button that was pressed.
+    ///Next there are a bunch of if else sentences for different buttons.
 
     private void Update()
     {
@@ -149,15 +150,15 @@ public class StarMapController1 : MonoBehaviour {
         Debug.Log(player.GetLocation().GetName() + ", Location: " + starLocation);
     }
 
+    
+    
     public void shipActivate()
     {
         ship2 = true;
         ShipLocation.SetActive(true);
     }
 
-    /**
-     movementError is called when the player tries to move to a star he cannot move to at the moment.
-     **/
+    ///movementError is called when the player tries to move to a star they cannot move to at the moment.
 
     public void movementError()
     {
@@ -182,6 +183,8 @@ public class StarMapController1 : MonoBehaviour {
         StartCoroutine(coolDown());
     }
 
+    ///loadGameProgress does what it says, loads game progress
+    
     private void loadGameProgress()
     {
         savedProgressGameString = File.ReadAllText("Assets\\Resources\\Progress.txt");
@@ -195,6 +198,9 @@ public class StarMapController1 : MonoBehaviour {
         }
         
     }
+    
+    ///updateStarLocation updates player's location based on saved progress.
+    
     private void updateStarLocation( int savedProgressLocation)
     {
         starLocation = savedProgressLocation - 2;
@@ -225,17 +231,12 @@ public class StarMapController1 : MonoBehaviour {
 
     }
 
-    /**
-     IEnumerator is called in movementError. It makes it so the error message from trying to move to an invalid location doesnt stay onscreen
-        forever.
-     **/
+    ///IEnumerator is called in movementError.
+    ///It makes it so the error message from trying to move to an invalid location doesnt stay onscreen forever.
 
     public IEnumerator coolDown()
     {
         yield return new WaitForSeconds(2.5f);
         errorText.text = "";
     }
-
-
-// Update is called once per frame
 }
