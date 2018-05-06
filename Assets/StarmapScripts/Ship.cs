@@ -4,18 +4,15 @@ public class Ship
 {
     private Star location;
 
-    /**
-    Updates the location of the ship.
-    **/
+    ///Updates the location of the ship.
 
     public Ship(Star location)
     {
         this.location = location;
     }
 
-    /**
-    Move is called in GameController to move the ship, as long as it doesn't try to move anywhere its not supposed to.
-    **/
+    ///Move is called in GameController to move the ship, as long as it doesn't try to move anywhere its not supposed to.
+
     public void Move(string direction)
     {
         if (location.GetNext(direction) != null)
@@ -24,9 +21,7 @@ public class Ship
         }
     }
 
-    /**
-    GetLocation gets the current location of the ship
-    **/
+    ///GetLocation gets the current location of the ship
 
     public Star GetLocation()
     {
