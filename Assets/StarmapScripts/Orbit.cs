@@ -2,8 +2,8 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-///class Orbit is supposed to make the player ship orbit around the star it is currently at. This is to indicate tha player's location.
-///I have not managed to get this to work yet, however. I used this tutorial as a base: https://www.youtube.com/watch?v=3PHc6vEckvc
+///class Orbit makes the player ship orbit around the star it is currently at. This is to indicate tha player's location.
+///I used this tutorial as a base: https://www.youtube.com/watch?v=3PHc6vEckvc
 
 public class Orbit
 {
@@ -50,21 +50,21 @@ public class Orbit
     /// This was an attempt at making the ship move from one star to next. I couldn't get this to work and in the final game it was
     /// unnecessary anyway.
 
-    //public void nextDestination(bool move)
-    //{
-    //    targetPosition = star.transform.position;
-    //    currentPosition = playerShip.transform.position;
-    //    directionOfTravel = targetPosition - currentPosition;
-    //    if (Vector3.Distance(currentPosition, targetPosition) > 50)
-    //    {
-    //        playerShip.transform.Translate(
-    //            (directionOfTravel.x * speed2 * Time.deltaTime),
-    //            (directionOfTravel.y * speed2 * Time.deltaTime),
-    //            (directionOfTravel.z * speed2 * Time.deltaTime));
-    //    }
-    //    else
-    //    {
-    //        move = false;
-    //    }
-    //}
+    ///public void nextDestination(bool move)
+    ///{
+    ///    targetPosition = star.transform.position;
+    ///    currentPosition = playerShip.transform.position;
+    ///    directionOfTravel = targetPosition - currentPosition;
+    ///    if (Vector3.Distance(currentPosition, targetPosition) > 50)
+    ///    {
+    ///        playerShip.transform.Translate(
+    ///            (directionOfTravel.x * speed2 * Time.deltaTime),
+    ///            (directionOfTravel.y * speed2 * Time.deltaTime),
+    ///            (directionOfTravel.z * speed2 * Time.deltaTime));
+    ///    }
+    ///    else
+    ///    {
+    ///        move = false;
+    ///    }
+    ///}
 }
