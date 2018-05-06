@@ -2,55 +2,58 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyLaser : MonoBehaviour
+namespace Combat
 {
-    private float speed = 4.0f;
-
-    public GameObject explosionPrefab;
-
-    /**
-    * Update() method is called 60 times per second.
-    */
-    void Update()
+    public class EnemyLaser : MonoBehaviour
     {
-        Move();
-        Destroy();
-    }
+        private float speed = 4.0f;
 
-    /**
-     * Method for enemyLaser movement.
-     */
-    public void Move()
-    {
-        transform.Translate(Vector3.down * speed * Time.deltaTime);
-        Destroy();
-    }
+        public GameObject explosionPrefab;
 
-    /**
-     * Method for destroying enemyLasers that travel out of screen.
-     */
-    public void Destroy()
-    {
-        if (transform.position.y <= -6)
+        /**
+        * Update() method is called 60 times per second.
+        */
+        void Update()
         {
-            Destroy(gameObject);
+            Move();
+            Destroy();
         }
-    }
 
-    /**
-     * Collider for enemyLaser.
-     * Upon contact with player, calls its' LoseHealth() method.
-     */
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.tag == "Player")
+        /**
+         * Method for enemyLaser movement.
+         */
+        public void Move()
         {
-            Player player1 = other.GetComponent<Player>();
+            transform.Translate(Vector3.down * speed * Time.deltaTime);
+            Destroy();
+        }
 
-            if (player1 != null)
+        /**
+         * Method for destroying enemyLasers that travel out of screen.
+         */
+        public void Destroy()
+        {
+            if (transform.position.y <= -6)
             {
-                player1.LoseHealth();
-                Destroy(this.gameObject);
+                Destroy(gameObject);
+            }
+        }
+
+        /**
+         * Collider for enemyLaser.
+         * Upon contact with player, calls its' LoseHealth() method.
+         */
+        private void OnTriggerEnter2D(Collider2D other)
+        {
+            if (other.tag == "Player")
+            {
+                Player player1 = other.GetComponent<Player>();
+
+                if (player1 != null)
+                {
+                    player1.LoseHealth();
+                    Destroy(this.gameObject);
+                }
             }
         }
     }
